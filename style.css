@@ -128,9 +128,10 @@ html {
 /* about cards */
 
 /* product cards */
-.container2{
+.container2 {
   margin-top: 40px;
 }
+
 /* product cards */
 
 /* gallery */
@@ -143,8 +144,247 @@ html {
   height: 400px;  */
 }
 
-.gallerypics{
+.gallerypics {
   width: 400px;
   height: 400px;
   border: 5px solid white;
+}
+
+/* gallery pics */
+
+/* contact form */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,500,700");
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box
+}
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+.contactDesign1 form {
+  background: #fafafa;
+  color: #232931;
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  padding-top: 2.5em;
+}
+
+.contactDesign1 form label {
+  color: #666
+}
+
+.contactDesign1 form #userInput {
+  width: 300px;
+  padding: 0 50px 50px 50px;
+  border-right: 1px solid #c9d6df
+}
+
+.contactDesign1 form #userInput .title {
+  font-size: 2em;
+  margin-bottom: .5em
+}
+.contactDesign1 form #userInput .formInput {
+  margin-bottom: 1.25em
+}
+
+.contactDesign1 form #userInput .formInput label {
+  display: block;
+  margin-bottom: .5em;
+  font-size: .75em
+}
+
+.contactDesign1 form #userInput .formInput input[type="text"],
+.contactDesign1 form #userInput .formInput input[type="email"] {
+  width: 100%;
+  font-size: 1em;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #c9d6df;
+  color: #333;
+  padding-bottom: .25em
+}
+
+.contactDesign1 form #userInput .formInput .checkbox input {
+  position: absolute;
+  opacity: 0
+}
+
+.contactDesign1 form #userInput .formInput .checkbox .overlay {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+
+.contactDesign1 form #userInput .formInput .checkbox input:checked~.overlay {
+  background-color: #0f2e13;
+  transform: rotate(0);
+  opacity: 1;
+  border: 2px solid #12491a;
+  padding-left: 2px;
+  padding-top: 2px
+}
+
+.contactDesign1 form #userInput .formInput .checkbox input:checked~.overlay .icon {
+  display: block;
+  transform: scale(1.75)
+}
+
+.contactDesign1 form #userInput .formInput .text {
+  margin-left: 1.75em;
+  font-size: .85em
+}
+
+.contactDesign1 form #userMessage {
+  width: 400px;
+  display: flex;
+  flex-direction: column
+}
+
+.contactDesign1 form #userMessage label {
+  padding-left: 1.25em;
+  font-size: .75em;
+  margin: .5em 0
+}
+
+.contactDesign1 form #userMessage textarea {
+  padding-left: 1em;
+  resize: none;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  font-size: 1em
+}
+
+.contactDesign1 form #userMessage button {
+  height: 60px;
+  background:rgb(162, 84, 33);
+  border: 0;
+  color: #ffffff;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%
+}
+
+.contactDesign2 {
+  height: 100vh;
+  display: flex;
+}
+
+.contactDesign2 form {
+  background: #fff;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  padding: 50px 0 50px 50px;
+  position: relative
+}
+
+.contactDesign2 form .title {
+  font-size: 1.75em;
+  font-weight: 300
+}
+
+.contactDesign2 form .contactInfo {
+  background: rgb(162, 84, 33);
+  width: 300px;
+  position: absolute;
+  left: -80px;
+  padding: 1.25em 1.25em 2.5em 1.25em;
+  color: #fafafa;
+  height: 80%
+}
+
+.contactDesign2 form .contactInfo .title {
+  margin-bottom: 1.25em
+}
+
+.contactDesign2 form .contactInfo ul {
+  list-style: none
+}
+
+.contactDesign2 form .contactInfo .contactDetails li {
+  margin-bottom: 2em
+}
+
+.contactDesign2 form .contactInfo .contactDetails i {
+  margin-right: 1em
+}
+
+.contactDesign2 form .contactInfo .socialMedia {
+  margin-top: 2.5em
+}
+
+.contactDesign2 form .contactInfo .socialMedia li {
+  display: inline;
+  padding: 1.25em
+}
+
+.contactDesign2 form .contactInfo .socialMedia li a:hover {
+  color: rgb(162, 84, 33);
+}
+
+.contactDesign2 form .contactInput {
+  margin-left: 200px;
+  padding-top: 1.25em;
+  width: 100%;
+  padding-right: 3em
+}
+
+.contactDesign2 form .contactInput .title {
+  margin-bottom: .25em
+}
+
+.contactDesign2 form .contactInput p {
+  margin-bottom: 1.25em
+}
+
+.contactDesign2 form .contactInput input {
+  margin-bottom: 1.25em;
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  background: rgba(200, 200, 200, 0.3);
+  border: 0;
+  color: #333;
+  height: 40px;
+  padding-left: .75em
+}
+
+.contactDesign2 form .contactInput textarea {
+  margin-bottom: 1.25em;
+  display: block;
+  padding: 1em;
+  resize: none;
+  background: rgba(200, 200, 200, 0.3);
+  border: 0;
+  height: 120px;
+  width: 100%;
+  font-size: 1em
+}
+
+.contactDesign2 form .contactInput button {
+  background: rgb(162, 84, 33);
+  border-radius: 50px;
+  width: 120px;
+  border: 0;
+  text-transform: uppercase;
+  color: #fafafa;
+  font-size: 1.25em;
+  height: 40px
 }
