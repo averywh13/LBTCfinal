@@ -156,6 +156,8 @@ html {
   transform: translate(-50%, -50%) rotate(38deg);
   display: grid;
 	grid-template-columns: repeat(7, 1fr);
+  
+  
 }
 
 .photo {
