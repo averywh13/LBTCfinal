@@ -467,3 +467,15 @@ a {
   font-size: 1.25em;
   height: 40px
 }
+
+.wbimg1 {
+  background-image: url(imgs/boat1.jpg);
+  height: 100px;
+  width: 100px;
+}
+
+.wbimg2 {
+  background-image: url(imgs/boat2.jpg);
+  height: 100px;
+  width: 100px;
+}
