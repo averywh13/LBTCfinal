@@ -80,9 +80,10 @@ html {
 /* navbar */
 
 /* about cards */
-.overviewpic1 {
+.aboutpic1 {
   border-radius: 15px 50px 50px 15px;
   border: 5px solid white;
+
 }
 
 .overviewpic2 {
@@ -130,6 +131,11 @@ html {
   margin-top: 40px;
 }
 
+.card-img-top{
+  width: 409x;
+  height: 350px;
+  border-radius: 0px;
+}
 /* product cards */
 
 /* gallery */
@@ -492,3 +498,36 @@ a {
   font-size: 1.25em;
   height: 40px
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
