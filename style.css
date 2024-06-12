@@ -472,10 +472,16 @@ a {
   background-image: url(imgs/boat1.jpg);
   height: 100px;
   width: 100px;
+  background-size: cover;
 }
 
 .wbimg2 {
   background-image: url(imgs/boat2.jpg);
   height: 100px;
   width: 100px;
+  background-size: cover;
+}
+
+.wbli {
+  width: 40%;
 }
