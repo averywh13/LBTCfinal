@@ -86,12 +86,12 @@ html {
 
 }
 
-.overviewpic2 {
+.aboutpic2 {
   border-radius: 50px 15px 15px 50px;
   border: 5px solid white;
 }
 
-.overviewpic3 {
+.aboutpic3 {
   border-radius: 15px 50px 50px 15px;
   border: 5px solid white;
 }
@@ -498,7 +498,9 @@ a {
   font-size: 1.25em;
   height: 40px
 }
-
+.toastpic{
+  width: 50px;
+}
 
 
 
