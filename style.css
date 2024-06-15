@@ -502,6 +502,32 @@ a {
   width: 50px;
 }
 
+.wbimg1 {
+  height: 100px;
+  width: 100px;
+  background-image: url(imgs/boat1.jpg);
+  background-size: cover;
+}
+
+.wbimg2 {
+  height: 100px;
+  width: 100px;
+  background-image: url(imgs/boat2.jpg);
+  background-size: cover;
+}
+
+.wbimg3 {
+  height: 100px;
+  width: 100px;
+  background-image: url(imgs/boat2.jpg);
+  background-size: cover;
+}
+
+.reviewbtn {
+  background-color: rgba(80, 59, 59, 255);
+  color: white;
+}
+
 
 
 
