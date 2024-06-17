@@ -505,29 +505,138 @@ a {
 .wbimg1 {
   height: 100px;
   width: 100px;
-  background-image: url(imgs/boat1.jpg);
+  background-image: url(imgs/boat2.jpg);
   background-size: cover;
 }
 
 .wbimg2 {
   height: 100px;
   width: 100px;
-  background-image: url(imgs/boat2.jpg);
+  background-image: url(imgs/boatred.png);
   background-size: cover;
 }
 
 .wbimg3 {
   height: 100px;
   width: 100px;
-  background-image: url(imgs/boat2.jpg);
+  background-image: url(imgs/boatblue.png);
+  background-size: cover;
+}
+.wcimg1 {
+  height: 100px;
+  width: 100px;
+  background-image: url(productpics/car2.jpg);
   background-size: cover;
 }
 
+.wcimg2 {
+  height: 100px;
+  width: 100px;
+  background-image: url(imgs/carred.png);
+  background-size: cover;
+}
+
+.wcimg3 {
+  height: 100px;
+  width: 100px;
+  background-image: url(imgs/carblue.png);
+  background-size: cover;
+}
+.wpimg1 {
+  height: 100px;
+  width: 100px;
+  background-image: url(productpics/plane2.jpg);
+  background-size: cover;
+}
+
+.wpimg2 {
+  height: 100px;
+  width: 100px;
+  background-image: url(imgs/planered.png);
+  background-size: cover;
+}
+
+.wpimg3 {
+  height: 100px;
+  width: 100px;
+  background-image: url(imgs/planeblue.png);
+  background-size: cover;
+}
+.wtimg1 {
+  height: 100px;
+  width: 100px;
+  background-image: url(productpics/train3.jpg);
+  background-size: cover;
+}
+
+.wtimg2 {
+  height: 100px;
+  width: 100px;
+  background-image: url(imgs/trainred.png);
+  background-size: cover;
+}
+
+.wtimg3 {
+  height: 100px;
+  width: 100px;
+  background-image: url(imgs/trainblue.png);
+  background-size: cover;
+}
+.wbbimg1 {
+  height: 100px;
+  width: 100px;
+  background-image: url(productpics/block2.jpg);
+  background-size: cover;
+}
+
+.wbbimg2 {
+  height: 100px;
+  width: 100px;
+  background-image: url(imgs/blocksred.png);
+  background-size: cover;
+}
+
+.wbbimg3 {
+  height: 100px;
+  width: 100px;
+  background-image: url(imgs/blocksblue.png);
+  background-size: cover;
+}
 .reviewbtn {
   background-color: rgba(80, 59, 59, 255);
   color: white;
 }
+.dropdown{
+  margin-top: 300px;
+  margin-left: -160px;
+}
+.dropdown-custom-menu .dropdown-item {
+  font-size: 0.7rem;
+  white-space: normal;
+}
+.imgshown{
+  width: 360px;
+  margin-left: 200px;
+  margin-top: -550px;
+}
+.dropdown:hover .dropdown-menu, .dropdown .dropdown-menu:hover {
+  display: block;
+}
+.modal-content{
+  display:flex;
+  justify-content: center;
+}
 
+.modal-dialog-custom {
+  max-width: 680px; /* Set max width of the modal */
+}
+/* product pics */
+
+/* shopping cart */
+.shoppingcart{
+  margin-top: 10px;
+  width: 9%;
+}
 
 
 
